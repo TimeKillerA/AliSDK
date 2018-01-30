@@ -1,0 +1,22 @@
+{
+  "name": "AliSDK",
+  "version": "0.1.0",
+  "summary": "A short description of AliSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuchenzheng/AliSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuchenzheng": "378306664@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yuchenzheng/AliSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AliSDK/Classes/**/*"
+}

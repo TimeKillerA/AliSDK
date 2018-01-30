@@ -1,0 +1,6 @@
+framework module Pods_AliSDK_Tests {
+  umbrella header "Pods-AliSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

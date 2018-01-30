@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AliSDK_Tests' do
+  pod 'AliSDK', :path => '../'
+  
+  
+end

@@ -1,0 +1,4 @@
+WXOpenIMSDKFMWK filter=lfs diff=lfs merge=lfs -text
+WXOpenIMSDKFMWK.framework filter=lfs diff=lfs merge=lfs -text
+WXOUIModule.framework filter=lfs diff=lfs merge=lfs -text
+WXOUIModule filter=lfs diff=lfs merge=lfs -text
