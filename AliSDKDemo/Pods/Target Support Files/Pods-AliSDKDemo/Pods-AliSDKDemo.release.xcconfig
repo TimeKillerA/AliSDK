@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../AliSDK/vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AliSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AliSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AliSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AliSDK" -l"resolv" -l"sqlite3" -l"sqlite3.0" -l"stdc++.6.0.9" -l"z" -framework "AVFoundation" -framework "AddressBook" -framework "AlicloudUtils" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "BCConnectorBundle" -framework "BCHybridWebViewFMWK" -framework "CoreData" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "ImageIO" -framework "MobileCoreServices" -framework "SGMain" -framework "SecurityGuardSDK" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini" -framework "WXOUIModule" -framework "WXOpenIMSDKFMWK" -framework "YWExtensionForCustomerServiceFMWK" -framework "YWFeedbackFMWK"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

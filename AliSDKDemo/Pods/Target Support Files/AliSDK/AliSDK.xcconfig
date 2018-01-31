@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/AliSDK
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../AliSDK/vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AliSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AliSDK"
+OTHER_LDFLAGS = -l"resolv" -l"sqlite3" -l"sqlite3.0" -l"stdc++.6.0.9" -l"z" -framework "AVFoundation" -framework "AddressBook" -framework "AlicloudUtils" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "BCConnectorBundle" -framework "BCHybridWebViewFMWK" -framework "CoreData" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "ImageIO" -framework "MobileCoreServices" -framework "SGMain" -framework "SecurityGuardSDK" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini" -framework "WXOUIModule" -framework "WXOpenIMSDKFMWK" -framework "YWExtensionForCustomerServiceFMWK" -framework "YWFeedbackFMWK"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

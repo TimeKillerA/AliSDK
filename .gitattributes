@@ -1,0 +1,7 @@
+AliSDK/vendor/AlicloudUtils.framework/AlicloudUtils filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/BCConnectorBundle.framework/Versions/A/BCConnectorBundle filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/SGMain.framework/SGMain filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/UTMini.framework/Versions/A/UTMini filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/WXOUIModule.framework/Versions/A/WXOUIModule filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/WXOpenIMSDKFMWK.framework/Versions/A/WXOpenIMSDKFMWK filter=lfs diff=lfs merge=lfs -text
+AliSDK/vendor/YWFeedbackFMWK.framework/Versions/A/YWFeedbackFMWK filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022763E10BD4A961F1F5C8B76D2C9DA7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B7DE9936871EC48DC459F71495B79 /* CoreLocation.framework */; };
+		0E23313AC6271A2BF21EB0F080EC130C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAFB21F68CF32687D4FF4020830D85C /* Foundation.framework */; };
+		3525CA2E9B70895399000B4C22C4F955 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE273671A87FFC88AA4590B8B72BD4B9 /* CoreData.framework */; };
+		36C192CA451C20B8DECBA3517F1194B9 /* ALISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C01A9A264933FEC893EFF7B593C09275 /* ALISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49061A98E875C3A32A6AEB4DACFF8CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A94C5C03BF48861B9C32CE487AF48FA /* UIKit.framework */; };
+		4A0871ABBBE45E1D5ED28483543D0A71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3CB56A8E01D50A2E50D274593CD6C /* AVFoundation.framework */; };
+		4F4C253315CDAC3A091BD55A000E667D /* ALISDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FBF70C40FB7BF054F6D371DCC5E6D /* ALISDK.m */; settings = {COMPILER_FLAGS = "-ObjC"; }; };
+		7FAEF36EDDBF826CB489267E6A8F9DE0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EB9B4F6E967DD9FB326B887F31C69D /* AddressBook.framework */; };
+		8FBD39F938EC47D90ABEA24438A2B7EF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43F4B9337F27152C00516885D4F05B /* MobileCoreServices.framework */; };
+		979FD476016F323D39B430890E7BF032 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4064AED6350E7288EDAE6CCB777C3619 /* AssetsLibrary.framework */; };
+		B3D798CA6CAD685EFA3BA347DC304872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAFB21F68CF32687D4FF4020830D85C /* Foundation.framework */; };
+		B514E51949134F742BD033B7A8CA823B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAFE95B61C1FD1B0B55EE570D5BF9D5 /* CoreMotion.framework */; };
+		B840FAF73C229DC347E30D5A9E8FE7C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29BA10ED7491F8EC44D32631F31C67 /* AudioToolbox.framework */; };
+		BDFF4B769658C03476F119B6D52D9604 /* Pods-AliSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 485AC2B502CB7A05C4F11521EA00B6EF /* Pods-AliSDKDemo-dummy.m */; };
+		C91DE527FC7A22D8E79F4B78775AE43E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075F9ADB924725F0876FDC47E8F6A105 /* SystemConfiguration.framework */; };
+		F4129DAE5B72DBEC429197C2126A7211 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E36B71129DE6A03DC74D33CDA9A559 /* CoreTelephony.framework */; };
+		FD2B14CB4733F55CDCC66F0E91622E87 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A792D876781FADC58E93170FFF75E0A /* ImageIO.framework */; };
+		FF97A516D87024491D2E81E0864585A6 /* AliSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63BCF0C7B160A7A0257F91E0A07A13E /* AliSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B759B6C3E74B85643B5AEC2CA07FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA95D333E9E9E815E1C092499E7C5494;
+			remoteInfo = AliSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075F9ADB924725F0876FDC47E8F6A105 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1617339A61D8CE8FCA60354B087E9B76 /* Pods-AliSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		169FBF70C40FB7BF054F6D371DCC5E6D /* ALISDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALISDK.m; sourceTree = "<group>"; };
+		1A1B52F36501FD7A356DAEDA92EBA53E /* Pods-AliSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B92DAC446FF39CEDE20F4916EAC0056 /* WXOpenIMSDKResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WXOpenIMSDKResource.bundle; sourceTree = "<group>"; };
+		25980488926C3C646D447478D5D9C649 /* BCHybridWebViewFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BCHybridWebViewFMWK.framework; path = AliSDK/vendor/BCHybridWebViewFMWK.framework; sourceTree = "<group>"; };
+		25E36B71129DE6A03DC74D33CDA9A559 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		31BEA69C62DF3473D2007F27CAD6EE5D /* WXOUIModuleResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WXOUIModuleResources.bundle; sourceTree = "<group>"; };
+		3A178DA3AB0289204EF4671039BBB7B1 /* AliSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliSDK.xcconfig; sourceTree = "<group>"; };
+		4064AED6350E7288EDAE6CCB777C3619 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		430215B6BF91E59A924B335C2F5EA6DE /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = AliSDK/vendor/SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		457D1EFF33BBC1BAFA25EE8721C2EA8E /* YWFeedbackBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = YWFeedbackBundle.bundle; sourceTree = "<group>"; };
+		46187883575C9AC55345C40169CFA452 /* libAliSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAliSDK.a; path = libAliSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46554598B5DF14C26FE1CFF396BE2049 /* Pods-AliSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		485AC2B502CB7A05C4F11521EA00B6EF /* Pods-AliSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		4A792D876781FADC58E93170FFF75E0A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		4D43F4B9337F27152C00516885D4F05B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		4DAFB21F68CF32687D4FF4020830D85C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AAFE95B61C1FD1B0B55EE570D5BF9D5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		799958F75C637246D1496CE0AC847332 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = yw_1222.jpg; sourceTree = "<group>"; };
+		7D5D1E59FAC1031189300C09E3D14E17 /* YWExtensionForCustomerServiceFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWExtensionForCustomerServiceFMWK.framework; path = AliSDK/vendor/YWExtensionForCustomerServiceFMWK.framework; sourceTree = "<group>"; };
+		7E7729BC14791B1C2478E15E3508450E /* Pods-AliSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		80EB9B4F6E967DD9FB326B887F31C69D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		8A94C5C03BF48861B9C32CE487AF48FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A270E3173216E20A8B91A3362F510F38 /* WXOUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WXOUIModule.framework; path = AliSDK/vendor/WXOUIModule.framework; sourceTree = "<group>"; };
+		A7BF43EA2D14DB3576133DA8C13F7D04 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = AliSDK/vendor/UTMini.framework; sourceTree = "<group>"; };
+		B41E391A4C57E4BB836A46BEB7DB037A /* BCConnectorBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BCConnectorBundle.framework; path = AliSDK/vendor/BCConnectorBundle.framework; sourceTree = "<group>"; };
+		B63BCF0C7B160A7A0257F91E0A07A13E /* AliSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliSDK-dummy.m"; sourceTree = "<group>"; };
+		C01A9A264933FEC893EFF7B593C09275 /* ALISDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALISDK.h; sourceTree = "<group>"; };
+		C654EAB8278DC143665E4641E6EB78BA /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AliSDK/vendor/UTDID.framework; sourceTree = "<group>"; };
+		CE273671A87FFC88AA4590B8B72BD4B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		CEBDA1DEBD9C15C271577EF39DB63ECE /* WXOpenIMSDKFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WXOpenIMSDKFMWK.framework; path = AliSDK/vendor/WXOpenIMSDKFMWK.framework; sourceTree = "<group>"; };
+		D0357FE819DF870181C7B7F146C57A64 /* Pods-AliSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliSDKDemo-resources.sh"; sourceTree = "<group>"; };
+		D228AFA7E90C377BD5977A63B4DA9798 /* YWFeedbackFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWFeedbackFMWK.framework; path = AliSDK/vendor/YWFeedbackFMWK.framework; sourceTree = "<group>"; };
+		D3338C052C0D16D615E6EB3A14DF477D /* libPods-AliSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AliSDKDemo.a"; path = "libPods-AliSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD29BA10ED7491F8EC44D32631F31C67 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		EEDA9588AB3C215825D1C22A2F17832E /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = AliSDK/vendor/SGMain.framework; sourceTree = "<group>"; };
+		F497E98E4B2A140B5438B004A9E4D158 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = AliSDK/vendor/AlicloudUtils.framework; sourceTree = "<group>"; };
+		F5EF562AE09F8FA54EA07DF0EE29A533 /* Pods-AliSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F88805C7A09F4B2EAF8605C76146990A /* AliSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliSDK-prefix.pch"; sourceTree = "<group>"; };
+		FC3B7DE9936871EC48DC459F71495B79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		FCF3CB56A8E01D50A2E50D274593CD6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A254DEFD62CD24942CEC4BDD8513B565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAEF36EDDBF826CB489267E6A8F9DE0 /* AddressBook.framework in Frameworks */,
+				979FD476016F323D39B430890E7BF032 /* AssetsLibrary.framework in Frameworks */,
+				B840FAF73C229DC347E30D5A9E8FE7C9 /* AudioToolbox.framework in Frameworks */,
+				4A0871ABBBE45E1D5ED28483543D0A71 /* AVFoundation.framework in Frameworks */,
+				3525CA2E9B70895399000B4C22C4F955 /* CoreData.framework in Frameworks */,
+				022763E10BD4A961F1F5C8B76D2C9DA7 /* CoreLocation.framework in Frameworks */,
+				B514E51949134F742BD033B7A8CA823B /* CoreMotion.framework in Frameworks */,
+				F4129DAE5B72DBEC429197C2126A7211 /* CoreTelephony.framework in Frameworks */,
+				0E23313AC6271A2BF21EB0F080EC130C /* Foundation.framework in Frameworks */,
+				FD2B14CB4733F55CDCC66F0E91622E87 /* ImageIO.framework in Frameworks */,
+				8FBD39F938EC47D90ABEA24438A2B7EF /* MobileCoreServices.framework in Frameworks */,
+				C91DE527FC7A22D8E79F4B78775AE43E /* SystemConfiguration.framework in Frameworks */,
+				49061A98E875C3A32A6AEB4DACFF8CFF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97A937C56CF4BACC7439AAA9F9EA397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D798CA6CAD685EFA3BA347DC304872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C1586BF2D3948248332BF25C3C4F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80EB9B4F6E967DD9FB326B887F31C69D /* AddressBook.framework */,
+				4064AED6350E7288EDAE6CCB777C3619 /* AssetsLibrary.framework */,
+				DD29BA10ED7491F8EC44D32631F31C67 /* AudioToolbox.framework */,
+				FCF3CB56A8E01D50A2E50D274593CD6C /* AVFoundation.framework */,
+				CE273671A87FFC88AA4590B8B72BD4B9 /* CoreData.framework */,
+				FC3B7DE9936871EC48DC459F71495B79 /* CoreLocation.framework */,
+				5AAFE95B61C1FD1B0B55EE570D5BF9D5 /* CoreMotion.framework */,
+				25E36B71129DE6A03DC74D33CDA9A559 /* CoreTelephony.framework */,
+				4DAFB21F68CF32687D4FF4020830D85C /* Foundation.framework */,
+				4A792D876781FADC58E93170FFF75E0A /* ImageIO.framework */,
+				4D43F4B9337F27152C00516885D4F05B /* MobileCoreServices.framework */,
+				075F9ADB924725F0876FDC47E8F6A105 /* SystemConfiguration.framework */,
+				8A94C5C03BF48861B9C32CE487AF48FA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24A86FE55145BF585FDB9D18A0A013B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189C1586BF2D3948248332BF25C3C4F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E3D1A8D049AC771E51785A024E619F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87416D5C378D0E7C1E0607F13E054413 /* AliSDK */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CEAE7E21F9305FFD765DF7261CE6AD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69B3FB10379ECF12B8DD500319405B7 /* Pods-AliSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77C66F5D970014EB49612A0653481945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46187883575C9AC55345C40169CFA452 /* libAliSDK.a */,
+				D3338C052C0D16D615E6EB3A14DF477D /* libPods-AliSDKDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E8EC10BD03479224917119BD98C6E47 /* Development Pods */,
+				24A86FE55145BF585FDB9D18A0A013B5 /* Frameworks */,
+				77C66F5D970014EB49612A0653481945 /* Products */,
+				4CEAE7E21F9305FFD765DF7261CE6AD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87416D5C378D0E7C1E0607F13E054413 /* AliSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA73C74BDD7C2D59F87EBFC5FF1CD43D /* vendor */,
+			);
+			name = AliSDK;
+			path = AliSDK;
+			sourceTree = "<group>";
+		};
+		875BAA32BD6BAFF51C60E0D47952438F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F497E98E4B2A140B5438B004A9E4D158 /* AlicloudUtils.framework */,
+				B41E391A4C57E4BB836A46BEB7DB037A /* BCConnectorBundle.framework */,
+				25980488926C3C646D447478D5D9C649 /* BCHybridWebViewFMWK.framework */,
+				430215B6BF91E59A924B335C2F5EA6DE /* SecurityGuardSDK.framework */,
+				EEDA9588AB3C215825D1C22A2F17832E /* SGMain.framework */,
+				C654EAB8278DC143665E4641E6EB78BA /* UTDID.framework */,
+				A7BF43EA2D14DB3576133DA8C13F7D04 /* UTMini.framework */,
+				CEBDA1DEBD9C15C271577EF39DB63ECE /* WXOpenIMSDKFMWK.framework */,
+				A270E3173216E20A8B91A3362F510F38 /* WXOUIModule.framework */,
+				7D5D1E59FAC1031189300C09E3D14E17 /* YWExtensionForCustomerServiceFMWK.framework */,
+				D228AFA7E90C377BD5977A63B4DA9798 /* YWFeedbackFMWK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BDD2D106499890FF921D9D9921536B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A178DA3AB0289204EF4671039BBB7B1 /* AliSDK.xcconfig */,
+				B63BCF0C7B160A7A0257F91E0A07A13E /* AliSDK-dummy.m */,
+				F88805C7A09F4B2EAF8605C76146990A /* AliSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "AliSDKDemo/Pods/Target Support Files/AliSDK";
+			sourceTree = "<group>";
+		};
+		9E8EC10BD03479224917119BD98C6E47 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BE5E5B5DFB08F49DC29E7B2E5AFEB /* AliSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0A719E3948E6FD86C63991CCD56B556 /* AliSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DD35791AE277630EFF796D23F55BD803 /* Classes */,
+			);
+			name = AliSDK;
+			path = AliSDK;
+			sourceTree = "<group>";
+		};
+		CF8BE5E5B5DFB08F49DC29E7B2E5AFEB /* AliSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B0A719E3948E6FD86C63991CCD56B556 /* AliSDK */,
+				875BAA32BD6BAFF51C60E0D47952438F /* Frameworks */,
+				2E3D1A8D049AC771E51785A024E619F0 /* Resources */,
+				9BDD2D106499890FF921D9D9921536B3 /* Support Files */,
+			);
+			name = AliSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DA73C74BDD7C2D59F87EBFC5FF1CD43D /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				1B92DAC446FF39CEDE20F4916EAC0056 /* WXOpenIMSDKResource.bundle */,
+				31BEA69C62DF3473D2007F27CAD6EE5D /* WXOUIModuleResources.bundle */,
+				799958F75C637246D1496CE0AC847332 /* yw_1222.jpg */,
+				457D1EFF33BBC1BAFA25EE8721C2EA8E /* YWFeedbackBundle.bundle */,
+			);
+			name = vendor;
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		DD35791AE277630EFF796D23F55BD803 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C01A9A264933FEC893EFF7B593C09275 /* ALISDK.h */,
+				169FBF70C40FB7BF054F6D371DCC5E6D /* ALISDK.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F69B3FB10379ECF12B8DD500319405B7 /* Pods-AliSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1617339A61D8CE8FCA60354B087E9B76 /* Pods-AliSDKDemo-acknowledgements.markdown */,
+				1A1B52F36501FD7A356DAEDA92EBA53E /* Pods-AliSDKDemo-acknowledgements.plist */,
+				485AC2B502CB7A05C4F11521EA00B6EF /* Pods-AliSDKDemo-dummy.m */,
+				7E7729BC14791B1C2478E15E3508450E /* Pods-AliSDKDemo-frameworks.sh */,
+				D0357FE819DF870181C7B7F146C57A64 /* Pods-AliSDKDemo-resources.sh */,
+				F5EF562AE09F8FA54EA07DF0EE29A533 /* Pods-AliSDKDemo.debug.xcconfig */,
+				46554598B5DF14C26FE1CFF396BE2049 /* Pods-AliSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-AliSDKDemo";
+			path = "Target Support Files/Pods-AliSDKDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F9D65AB81B346A4D3703C3C9DA2919D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C192CA451C20B8DECBA3517F1194B9 /* ALISDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27977DDE4673D1E64A51A0BBB59B9885 /* Pods-AliSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740E0FC301F805A45DD7F70A485FB810 /* Build configuration list for PBXNativeTarget "Pods-AliSDKDemo" */;
+			buildPhases = (
+				290BACA597A8E5177DB761A24E298055 /* Sources */,
+				B97A937C56CF4BACC7439AAA9F9EA397 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2541001AFF30D0B9FFFAFE936737F980 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliSDKDemo";
+			productName = "Pods-AliSDKDemo";
+			productReference = D3338C052C0D16D615E6EB3A14DF477D /* libPods-AliSDKDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA95D333E9E9E815E1C092499E7C5494 /* AliSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4875E3B7CA89AD1BBD29C3E6926CF5AC /* Build configuration list for PBXNativeTarget "AliSDK" */;
+			buildPhases = (
+				4A04B796722076248BEF7C3078B26A7A /* Sources */,
+				A254DEFD62CD24942CEC4BDD8513B565 /* Frameworks */,
+				4F9D65AB81B346A4D3703C3C9DA2919D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliSDK;
+			productName = AliSDK;
+			productReference = 46187883575C9AC55345C40169CFA452 /* libAliSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 77C66F5D970014EB49612A0653481945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA95D333E9E9E815E1C092499E7C5494 /* AliSDK */,
+				27977DDE4673D1E64A51A0BBB59B9885 /* Pods-AliSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290BACA597A8E5177DB761A24E298055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF4B769658C03476F119B6D52D9604 /* Pods-AliSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04B796722076248BEF7C3078B26A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97A516D87024491D2E81E0864585A6 /* AliSDK-dummy.m in Sources */,
+				4F4C253315CDAC3A091BD55A000E667D /* ALISDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2541001AFF30D0B9FFFAFE936737F980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliSDK;
+			target = DA95D333E9E9E815E1C092499E7C5494 /* AliSDK */;
+			targetProxy = 68B759B6C3E74B85643B5AEC2CA07FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F86E365874277E778A8BDA522E6679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A178DA3AB0289204EF4671039BBB7B1 /* AliSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliSDK/AliSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3CACB7BAC7E43DEDD766CE48DA1F13FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46554598B5DF14C26FE1CFF396BE2049 /* Pods-AliSDKDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		432AE583FE3CD8E1271410C7651CDD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B7B77DA256A66772C59BCC47F465B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EF562AE09F8FA54EA07DF0EE29A533 /* Pods-AliSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75CC402179505BA337B07F61D1C8DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4E4CFD24E65FE560C7CF30BAAAA9D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A178DA3AB0289204EF4671039BBB7B1 /* AliSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliSDK/AliSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CC402179505BA337B07F61D1C8DDCD /* Debug */,
+				432AE583FE3CD8E1271410C7651CDD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4875E3B7CA89AD1BBD29C3E6926CF5AC /* Build configuration list for PBXNativeTarget "AliSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E4CFD24E65FE560C7CF30BAAAA9D2A /* Debug */,
+				04F86E365874277E778A8BDA522E6679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740E0FC301F805A45DD7F70A485FB810 /* Build configuration list for PBXNativeTarget "Pods-AliSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7B77DA256A66772C59BCC47F465B45 /* Debug */,
+				3CACB7BAC7E43DEDD766CE48DA1F13FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

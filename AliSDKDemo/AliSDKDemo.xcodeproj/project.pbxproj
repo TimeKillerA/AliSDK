@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B16782202150D600438FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B16781202150D600438FC8 /* AppDelegate.m */; };
+		88B16785202150D600438FC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B16784202150D600438FC8 /* ViewController.m */; };
+		88B16788202150D600438FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B16786202150D600438FC8 /* Main.storyboard */; };
+		88B1678A202150D600438FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B16789202150D600438FC8 /* Assets.xcassets */; };
+		88B1678D202150D600438FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B1678B202150D600438FC8 /* LaunchScreen.storyboard */; };
+		88B16790202150D600438FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B1678F202150D600438FC8 /* main.m */; };
+		A30428513B007A67A827435C /* libPods-AliSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2C9067A3680B9898900B1E /* libPods-AliSDKDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B2C9067A3680B9898900B1E /* libPods-AliSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1677D202150D600438FC8 /* AliSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B16780202150D600438FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B16781202150D600438FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88B16783202150D600438FC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88B16784202150D600438FC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88B16787202150D600438FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B16789202150D600438FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B1678C202150D600438FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88B1678E202150D600438FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B1678F202150D600438FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F933913462A11F6E6596AA /* Pods-AliSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliSDKDemo/Pods-AliSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FC4C98743E1DEB4E398A5638 /* Pods-AliSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliSDKDemo/Pods-AliSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B1677A202150D600438FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30428513B007A67A827435C /* libPods-AliSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055087DEAC4BA312F3B19589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C98743E1DEB4E398A5638 /* Pods-AliSDKDemo.debug.xcconfig */,
+				A7F933913462A11F6E6596AA /* Pods-AliSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88B16774202150D600438FC8 = {
+			isa = PBXGroup;
+			children = (
+				88B1677F202150D600438FC8 /* AliSDKDemo */,
+				88B1677E202150D600438FC8 /* Products */,
+				055087DEAC4BA312F3B19589 /* Pods */,
+				D6C950629A3A176FD178B9FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88B1677E202150D600438FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B1677D202150D600438FC8 /* AliSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B1677F202150D600438FC8 /* AliSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88B16780202150D600438FC8 /* AppDelegate.h */,
+				88B16781202150D600438FC8 /* AppDelegate.m */,
+				88B16783202150D600438FC8 /* ViewController.h */,
+				88B16784202150D600438FC8 /* ViewController.m */,
+				88B16786202150D600438FC8 /* Main.storyboard */,
+				88B16789202150D600438FC8 /* Assets.xcassets */,
+				88B1678B202150D600438FC8 /* LaunchScreen.storyboard */,
+				88B1678E202150D600438FC8 /* Info.plist */,
+				88B1678F202150D600438FC8 /* main.m */,
+			);
+			path = AliSDKDemo;
+			sourceTree = "<group>";
+		};
+		D6C950629A3A176FD178B9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2C9067A3680B9898900B1E /* libPods-AliSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B1677C202150D600438FC8 /* AliSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B16793202150D600438FC8 /* Build configuration list for PBXNativeTarget "AliSDKDemo" */;
+			buildPhases = (
+				B9FC87AC9ED5DADCF7D0E5B5 /* [CP] Check Pods Manifest.lock */,
+				88B16779202150D600438FC8 /* Sources */,
+				88B1677A202150D600438FC8 /* Frameworks */,
+				88B1677B202150D600438FC8 /* Resources */,
+				C2DBB166F863D81019A2C230 /* [CP] Embed Pods Frameworks */,
+				F4FBF509A5639AF20A41ABCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliSDKDemo;
+			productName = AliSDKDemo;
+			productReference = 88B1677D202150D600438FC8 /* AliSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B16775202150D600438FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Heer;
+				TargetAttributes = {
+					88B1677C202150D600438FC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88B16778202150D600438FC8 /* Build configuration list for PBXProject "AliSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B16774202150D600438FC8;
+			productRefGroup = 88B1677E202150D600438FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B1677C202150D600438FC8 /* AliSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B1677B202150D600438FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B1678D202150D600438FC8 /* LaunchScreen.storyboard in Resources */,
+				88B1678A202150D600438FC8 /* Assets.xcassets in Resources */,
+				88B16788202150D600438FC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9FC87AC9ED5DADCF7D0E5B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DBB166F863D81019A2C230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliSDKDemo/Pods-AliSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FBF509A5639AF20A41ABCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliSDKDemo/Pods-AliSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B16779202150D600438FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B16785202150D600438FC8 /* ViewController.m in Sources */,
+				88B16790202150D600438FC8 /* main.m in Sources */,
+				88B16782202150D600438FC8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88B16786202150D600438FC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B16787202150D600438FC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88B1678B202150D600438FC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B1678C202150D600438FC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B16791202150D600438FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88B16792202150D600438FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B16794202150D600438FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4C98743E1DEB4E398A5638 /* Pods-AliSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTVKLZ8P3W;
+				INFOPLIST_FILE = AliSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heer.mobile.demo.AliSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B16795202150D600438FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F933913462A11F6E6596AA /* Pods-AliSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTVKLZ8P3W;
+				INFOPLIST_FILE = AliSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heer.mobile.demo.AliSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B16778202150D600438FC8 /* Build configuration list for PBXProject "AliSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B16791202150D600438FC8 /* Debug */,
+				88B16792202150D600438FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B16793202150D600438FC8 /* Build configuration list for PBXNativeTarget "AliSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B16794202150D600438FC8 /* Debug */,
+				88B16795202150D600438FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B16775202150D600438FC8 /* Project object */;
+}

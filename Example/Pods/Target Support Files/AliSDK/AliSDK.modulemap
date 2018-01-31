@@ -1,6 +1,0 @@
-framework module AliSDK {
-  umbrella header "AliSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

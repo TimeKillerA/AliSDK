@@ -1,0 +1,1 @@
+../../../../../../AliSDK/vendor/SGMain.framework/Headers/ISecurityGuardOpenDynamicDataEncrypt.h

@@ -1,0 +1,8 @@
+project 'AliSDKDemo.xcodeproj'
+
+
+target 'AliSDKDemo' do
+
+  pod 'AliSDK', :path=>'../'
+
+end

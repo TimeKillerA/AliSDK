@@ -1,0 +1,51 @@
+{
+  "name": "AliSDK",
+  "version": "0.1.0",
+  "summary": "使用到的阿里SDK集合",
+  "description": "使用到的阿里SDK集合，主要是为了防止产生冲突，所以将framework封装到pod库中进行管理",
+  "homepage": "https://github.com/TimeKillerA/AliSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuchenzheng": "378306664@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/TimeKillerA/AliSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "compiler_flags": "-ObjC",
+  "source_files": "AliSDK/Classes/**/*",
+  "resources": [
+    "AliSDK/vendor/*.jpg",
+    "AliSDK/vendor/*.bundle"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AddressBook",
+    "SystemConfiguration",
+    "CoreLocation",
+    "CoreTelephony",
+    "CoreData",
+    "MobileCoreServices",
+    "ImageIO",
+    "AudioToolbox",
+    "AVFoundation",
+    "AssetsLibrary",
+    "CoreMotion"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "resolv",
+    "stdc++.6.0.9",
+    "sqlite3.0"
+  ],
+  "ios": {
+    "vendored_frameworks": "**/AliSDK/vendor/*.framework"
+  }
+}

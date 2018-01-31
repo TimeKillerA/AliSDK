@@ -1,0 +1,16 @@
+PODS:
+  - AliSDK (0.1.0)
+
+DEPENDENCIES:
+  - AliSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AliSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliSDK: 14e7cc2c578fc1185ac690fd7343e9e41db5e7dc
+
+PODFILE CHECKSUM: 8c8e363651cdf9f48fd7d35ee13f597c765fa0e5
+
+COCOAPODS: 1.1.1

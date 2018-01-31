@@ -1,0 +1,1 @@
+../../../../../../../../AliSDK/vendor/SecurityGuardSDK.framework/Headers/Open/OpenAtlasEncrypt/IOpenAtlasEncryptComponent.h

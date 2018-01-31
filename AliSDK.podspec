@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-ObjC'
   s.source_files = 'AliSDK/Classes/**/*'
   
-  s.resource = 'AliSDK/vendor/*.jpg', 'AliSDK/vendor/*.bundle'
+  s.resource = 'AliSDK/vendor/*.bundle'
   
   # s.resource_bundles = {
   #   'AliSDK' => ['AliSDK/Assets/*.png']

@@ -1,0 +1,1 @@
+../../../../../../../../AliSDK/vendor/SecurityGuardSDK.framework/Headers/Open/OpenNoCaptcha/IOpenNoCaptchaComponent.h
